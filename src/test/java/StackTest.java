@@ -21,7 +21,6 @@ public class StackTest {
 
     @Test
     public void pushingAnElementWithExpandingArray(){
-        Stack stack = new Stack();
         for (int i = 1;i<=10;i++){
             stack.push(i);
         }
@@ -32,7 +31,6 @@ public class StackTest {
     }
     @Test
     public void popingAnElementFromANonEmptyStack(){
-        Stack stack = new Stack();
         stack.push(5);
         Assertions.assertEquals(1,stack.size());
         int result = stack.pop();
@@ -41,13 +39,11 @@ public class StackTest {
     }
     @Test
     public void popingAnElementFromAnEmptyStack(){
-        Stack stack = new Stack();
         Assertions.assertThrows(IllegalStateException.class,()->stack.pop());
     }
 
     @Test
     public void peekingAnElementFromANonEmptyStack(){
-        Stack stack = new Stack();
         stack.push(5);
         Assertions.assertEquals(1,stack.size());
         int result = stack.peek();
@@ -55,29 +51,24 @@ public class StackTest {
     }
     @Test
     public void peekingAnElementFromAnEmptyStack(){
-        Stack stack = new Stack();
         Assertions.assertThrows(IllegalStateException.class,()->stack.peek());
     }
     @Test
     public void isEmptyToANonEmptyStack(){
-        Stack stack = new Stack();
         stack.push(6);
         Assertions.assertFalse(stack.isEmpty());
     }
     @Test
     public void isEmptyToAnEmptyStack(){
-        Stack stack = new Stack();
         Assertions.assertTrue(stack.isEmpty());
     }
     @Test
     public void sizeIncrementByAddingAnElement(){
-        Stack stack = new Stack();
         stack.push(9);
         Assertions.assertEquals(1,stack.size());
     }
     @Test
     public void sizeDecrementByRemovingAnElement(){
-        Stack stack = new Stack();
         stack.push(9);
         stack.push(16);
         stack.push(13);
