@@ -1,6 +1,8 @@
+package tp0;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.Fibonacci;
+import org.example.tp0.Fibonacci;
 public class FibonacciTest {
     @Test
     public void negativeNumberShouldThrowAnException(){

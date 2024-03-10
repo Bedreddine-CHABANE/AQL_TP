@@ -1,6 +1,8 @@
+package tp0;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.Factorial;
+import org.example.tp0.Factorial;
 public class FactorialTest {
     @Test
     public void negativeNumbersCantBeFactored(){

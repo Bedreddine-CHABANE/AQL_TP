@@ -1,6 +1,8 @@
+package tp0;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.Person;
+import org.example.tp0.Person;
 public class PersonTest {
     @Test
     public void isGetFullNameReturnFullName(){

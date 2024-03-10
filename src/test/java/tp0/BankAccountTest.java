@@ -1,6 +1,8 @@
+package tp0;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.BankAccount;
+import org.example.tp0.BankAccount;
 public class BankAccountTest {
     @Test
     public void depositANegativeAmount(){

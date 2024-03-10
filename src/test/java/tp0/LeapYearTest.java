@@ -1,6 +1,8 @@
+package tp0;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.LeapYear;
+import org.example.tp0.LeapYear;
 
 public class LeapYearTest {
     @Test

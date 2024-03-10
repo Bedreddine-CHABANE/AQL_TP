@@ -1,8 +1,9 @@
+package tp0;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.example.Matrix;
+import org.example.tp0.Matrix;
 public class MatrixTest {
     Matrix matrix1;
     Matrix matrix2;

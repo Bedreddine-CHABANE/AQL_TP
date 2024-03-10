@@ -1,4 +1,4 @@
-package org.example;
+package org.example.tp0;
 
 public class Factorial {
     public static int factorial(int n) {

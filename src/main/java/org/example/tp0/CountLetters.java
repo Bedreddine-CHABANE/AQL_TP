@@ -1,4 +1,4 @@
-package org.example;
+package org.example.tp0;
 
 public class CountLetters {
     public int count(String str) {

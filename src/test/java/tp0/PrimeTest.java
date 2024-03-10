@@ -1,6 +1,8 @@
+package tp0;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.Prime;
+import org.example.tp0.Prime;
 public class PrimeTest {
     @Test
     public void numbersLessThan2AreNotPrime(){

@@ -1,7 +1,8 @@
+package tp0;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.BlackJack;
+import org.example.tp0.BlackJack;
 public class BlackJackTest {
     @Test
     public void leftShouldWinUnder21() {

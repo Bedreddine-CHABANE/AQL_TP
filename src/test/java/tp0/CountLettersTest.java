@@ -1,6 +1,8 @@
+package tp0;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.CountLetters;
+import org.example.tp0.CountLetters;
 public class CountLettersTest {
     @Test
     public void lastWordDoesNotMatch(){
