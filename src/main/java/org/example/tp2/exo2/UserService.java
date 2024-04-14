@@ -8,5 +8,15 @@ public class UserService{
     public void creerUtilisateur(Utilisateur utilisateur) throws
             ServiceException {
         utilisateurApi.creerUtilisateur(utilisateur);
+        int utilisateurID = utilisateurApi.getUtilisateurID();
+        utilisateur.setId(utilisateurID);
+    }
+    public boolean creerUtilisateurTrueOrFalse(Utilisateur utilisateur) throws ServiceException {
+        try {
+            utilisateurApi.creerUtilisateur(utilisateur);
+            return true;
+        } catch (ServiceException e) {
+            return false;
+        }
     }
 }

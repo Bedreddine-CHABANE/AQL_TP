@@ -4,6 +4,7 @@ public class Utilisateur {
     private String nom;
     private String prenom;
     private String email;
+    private int id;
 
     public Utilisateur() {
     }
@@ -36,6 +37,14 @@ public class Utilisateur {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
 
